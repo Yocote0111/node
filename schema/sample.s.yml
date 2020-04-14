@@ -1,0 +1,6 @@
+animals:
+  - id: hoge
+    description: e:animal
+  - id: aaa
+    description: aaa
+  

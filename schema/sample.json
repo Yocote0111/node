@@ -1,0 +1,7 @@
+{
+    "$schema": "./sample-schema.json",
+    "animals": [{
+        "id": "cats",
+        "description": "hogehoge"
+    }]
+}
