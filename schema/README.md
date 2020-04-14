@@ -14,8 +14,8 @@ json-schema など, package.json など, 定型のJSONファイルを書く際�
     }
 }
 ```
-### schema list
-Ref: [http://schemastore.org/json/]
+## * JSON schema list
+Ref: [http://schemastore.org/json/]  
 json-schema: "http://json-schema.org/draft-07/schema"  
 package.json: "http://json.schemastore.org/package"  
 
@@ -27,12 +27,11 @@ settings.json で "yaml.schemas" プロパティを指定することでバリ�
 {
     "yaml.schemas": {
         "http://json.schemastore.org/swagger-2.0": ["*swagger.yaml", "*swagger.yml"],
-        "file:///C:/Users/yokota-masanori.CATS/git/node/sample.json": ["*.s.yaml","*.s.yml"],
         "https://raw.githubusercontent.com/docker/compose/master/compose/config/config_schema_v3.8.json": ["*docker-compose.yaml", "*docker-compose.yml"]
     }
 }
 ```
-### schema list
+## * yaml schema list
 
 swagger: "http://json.schemastore.org/swagger-2.0"  
 docker-compose: "https://raw.githubusercontent.com/docker/compose/master/compose/config/config_schema_v3.8.json"
